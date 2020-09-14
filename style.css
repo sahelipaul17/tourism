@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.slide_bg{
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 14s linear infinite 5s;
+    animation-timing-function:ease-in-out;
+    background-image: url('Getty.jpg');
+    background-attachment: fixed;
+    padding-top:20px;
+    text-align: center;
+    color:#fff;
+}
+
+@keyframes slideBg{
+     0% {
+         background-image: url('switzerland.jpg');
+    }
+    10%{
+        background-image: url('2a.jpg');
+    }
+    20% {
+       background-image: url('htt.jpg') ;
+    }
+    35%{
+        background-image: url('MALDIVES.jpg');
+    }
+    50% {
+        background-image: url('Manali.jpg') ;
+    }
+    75% {
+        background-image: url('hqdefault.jpg'); 
+    }
+    90% {
+        background-image: url('ladahak.jpg') ;
+    }
+    100% {
+        background-image: url('Spotted.jpg') ; }
+    }
+
+.slide_bg img{
+    width: 190px;
+    padding: 2px;
+    float: left;
+}
+
+.slide_bg h1{
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size: 55px;
+}
+
+
+
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 70px;
+    background: transparent;
+    color:#fff;
+    float: right;
+}
+
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    margin:auto;
+    padding: 2px;
+    
+}
+
+.form-control{
+    border: 5px !important;
+    border-radius: 50px  !important;
+    margin:2px;
+    box-shadow: 2px !important
+}
+
+.input-group-append{
+    width:  120px;
+    border: O;
+    margin: 3px;
+    padding:0 45px !important;
+    border-radius: 30px !important;
+    box-shadow: 9px !important;
+    box-decoration-break: clone;
+    
+}
+
+/*features*/
+
+.features{
+    height:80vh;
+    padding: 100px 0;
+    
+}
+
+.features h1{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.feature-img img{
+    width: 100%;
+    
+}
+
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    right:20px;
+    bottom: -50px;
+    
+}
+
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+.feature-img{
+    position: relative;
+}
+
+.features .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.feature-details{
+    padding: 2px 5px;
+    text-align: justify;
+    float: left;
+    bottom: -90px;
+    position: absolute;
+    color:black;
+    
+}
+
+.feature-box{
+    box-shadow: 4 0 60px 20px rgba(37,73,348,0.20);
+    margin-bottom: 50px;
+}
+
+
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+    
+}
+
+.gallery h1{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 1px;
+    margin-bottom: 7px;
+}
+
+.gallery-box img{
+    width: 118%;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 0px;
+    position: relative;
+    
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-box h4{
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.banner{
+    width:100%;
+    height: 80vh;
+    background-image: url('beauty.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 15%;
+}
+
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color:#fff;
+}
+
+
+.booking-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid #fff;
+    background: white;
+    color: red;
+    float: right;
+    border-radius: 20px;
+    border:2px white;
+    margin-top: 10px;
+}
+
+.checking-btn{
+     width: 100px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid #fff;
+    background: red;
+    color: white;
+    float: right;
+    border-radius: 20px;
+    border:2px red;
+}
+
+.users-feedback{
+     padding: 100px 0;
+    
+}
+.users-feedback h1{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.3);
+    padding-bottom: 50px;
+    padding: 3px;
+    border-bottom: 3px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+.user-review h5{
+    padding: 3px;
+}
+
+.user-review img{
+    
+    width: 60px;
+    height: 60%;
+    border-radius: 50%;
+    position: relative;
+    margin: -3opx 0 20px 40%;
+    padding: 0px;
+        
+}
+.user-review p:: before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    left: 44%;
+    top: -20%;
+}
+.foot{
+    padding: 150px  0px;
+    background-image: url('45.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 15%;
+    color: black;
+    font-weight: 400;
+}
+
+.footer-logo{
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+
+.foot h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+}
+
+.foot p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
